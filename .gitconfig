@@ -1,6 +1,6 @@
 [user]
 	name = Timmy Stephani - Mac Laptop
-	email = timmy.stephani@gmail.com
+	email = emailhere@gmail.com
 [color]
  branch = auto
  diff = auto
@@ -18,3 +18,5 @@
  added = yellow
  changed = green
  untracked = cyan
+ [format]
+    pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
