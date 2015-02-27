@@ -26,10 +26,7 @@
     co = checkout
     br = branch
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
-# Copy git-completion.bash to home directory
-#cp usr/local/git/contrib/completion/git-completion.bash ~/
-
-# Add the following lines to ~/.bashrc
-#if [ -x /usr/local/git/bin/git ]; then
-#    source ~/.git-completion.bash
-#fi
+[push]
+    default = simple
+[core]
+    editor = emacs
