@@ -5,6 +5,7 @@
  branch = auto
  diff = auto
  status = auto
+ ui = auto
 [color "branch"]
  current = yellow reverse
  local = yellow
@@ -26,6 +27,7 @@
     co = checkout
     br = branch
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order
 [push]
     default = simple
 [core]
