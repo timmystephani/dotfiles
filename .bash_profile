@@ -21,7 +21,7 @@ alias rdms='rake db:migrate:status'
 alias rdm='rake db:migrate'
 alias mgrep=mgrep
 alias gsc=showFullCommitMessage
-alias clean=trimSpacesAtEndOfLine()
+alias clean=trimSpacesAtEndOfLine
 
 source ~/.git-prompt.sh
 source ~/.git-completion.bash
